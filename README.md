@@ -1,6 +1,8 @@
 # Android-JL_OTA
 The bluetooth OTA for Android
 
+
+
 ## 快速开始
 
 为了帮助开发者快速接入杰理OTA方案，请开发前详细阅读SDK开发文档: [杰理OTA外接库开发文档(Android)](https://doc.zh-jieli.com/Apps/Android/ota/zh-cn/master/index.html)。
@@ -31,13 +33,14 @@ The bluetooth OTA for Android
 
 ```tex
 apk  --- 测试APK
- ├── JLOTA_V1.8.0_10800-debug.apk
+ ├── JLOTA_V1.8.1_10807-debug.apk
 code --- 演示程序源码
  ├── 参考Demo源码工程
 doc  --- 开发文档
  ├── 杰理OTA外接库(Android)开发文档链接
 libs --- 核心库
- └── jl_bt_ota_V1.10.0-release
+ ├── jl_bt_ota_V1.10.0_10931-release
+ └── jl_bt_ota_V1.10.0_10932-release
 ```
 
 
@@ -108,14 +111,12 @@ libs --- 核心库
    //isSaveFile --- 是否保存log文件，建议是开发时打开，发布时关闭
    JL_Log.setIsSaveLogFile(context, BuildConfig.DEBUG);
    ```
-
-​		**注意事项**
-
-```tex
-	1.  建议在Application中设置打印输出
-	2.  debug版本默认开启打印, release版本默认关闭打印
-	3.  客户可以在demo工程配置是否开启debug调试
-```
+   
+   **注意事项**
+   
+   * 建议在Application中设置打印输出
+   * debug版本默认开启打印, release版本默认关闭打印
+   * 客户可以在demo工程配置是否开启debug调试
 
 
 
