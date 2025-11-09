@@ -1,6 +1,9 @@
 # Android-JL_OTA
 The bluetooth OTA for Android
 
+## 📖 문서 / Documentation
+
+- **[한글 온보딩 가이드 (Korean Onboarding Guide)](./ONBOARDING_KO.md)** - 처음 시작하는 개발자를 위한 상세 가이드
 
 
 ## 快速开始
